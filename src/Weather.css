@@ -24,23 +24,23 @@
     list-style-type: none;    
 }
 
-.Weather canvas {
-    height: 60px;
-    width: 60px;
-    float: top;
+.Weather .btn-primary {
+    background-color: #a2a8d3;
+    border-color: #38598b;
 }
+
 .Weather .temperature {
-    color: black;
+    color: #113f67;
     font-size: 64px;
     font-weight: bold;
     line-height: 64px;
 }
 
 .Weather .unit {
-    color: black;
+    color: #113f67;
     font-size: 16px;
+    line-height: 1;
+    margin-left: 4px;
     position: relative;
     top: -34px;
-    margin-left: 4px;
-    line-height: 1;
 }
