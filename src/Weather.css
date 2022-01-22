@@ -1,13 +1,10 @@
 .Weather {
-    border: 1px solid gray;
-    color: rgb(135, 135, 135);
     padding: 16px;
-    border-radius: 4px;
 }
 
 
 .Weather h1 {
-    color: darkblue;
+    color: #113f67;
     display: block;
     font-size: 24px;
     font-weight: 100px;
@@ -30,8 +27,7 @@
 .Weather canvas {
     height: 60px;
     width: 60px;
-    float: left;
-    margin-right: 10px;
+    float: top;
 }
 .Weather .temperature {
     color: black;
