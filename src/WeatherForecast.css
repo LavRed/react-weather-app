@@ -1,8 +1,21 @@
 .WeatherForecast {
     text-align: center;
+    border: 1px solid #38598b;
+    box-shadow: 0 0 15px #38598b;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.WeatherForecast .WeatherForecast-temperatures {
+    font-size: 15px;
 }
 
 .WeatherForecast .WeatherForecast-temp-min {
     opacity: 0.6;
     margin-left: 5px;
+}
+
+.WeatherForecast .WeatherForecast-day {
+    margin-bottom: 4px;
+    font-weight: bold;
 }

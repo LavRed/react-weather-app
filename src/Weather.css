@@ -6,10 +6,12 @@
 .Weather h1 {
     color: #113f67;
     display: block;
-    font-size: 24px;
-    font-weight: 100px;
+    font-size: 36px;
+    font-weight: bold;
     line-height: 29px;
     margin: 20px 0 0;
+    text-transform: capitalize;
+    opacity: .8;
 }
 
 .Weather ul {
